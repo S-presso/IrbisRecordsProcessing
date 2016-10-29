@@ -1,0 +1,9 @@
+C:\Temp3\CrmCommon\bin\Release\CrmCommon.dll
+C:\Temp3\CrmCommon\bin\Release\CrmCommon.pdb
+C:\Temp3\CrmCommon\bin\Release\ManagedClient.dll
+C:\Temp3\CrmCommon\bin\Release\Antlr4.Runtime.net35.dll
+C:\Temp3\CrmCommon\bin\Release\Antlr4.Runtime.net35.xml
+C:\Temp3\CrmCommon\bin\Release\ManagedClient.pdb
+C:\Temp3\CrmCommon\obj\Release\ResolveAssemblyReference.cache
+C:\Temp3\CrmCommon\obj\Release\CrmCommon.dll
+C:\Temp3\CrmCommon\obj\Release\CrmCommon.pdb

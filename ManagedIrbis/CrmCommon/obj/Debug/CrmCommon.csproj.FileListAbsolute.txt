@@ -1,0 +1,27 @@
+C:\Temp3\CrmCommon\bin\Debug\CrmCommon.dll
+C:\Temp3\CrmCommon\bin\Debug\CrmCommon.pdb
+C:\Temp3\CrmCommon\bin\Debug\ManagedClient.dll
+C:\Temp3\CrmCommon\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Temp3\CrmCommon\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Temp3\CrmCommon\bin\Debug\ManagedClient.pdb
+C:\Temp3\CrmCommon\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\CrmCommon\obj\Debug\CrmCommon.dll
+C:\Temp3\CrmCommon\obj\Debug\CrmCommon.pdb
+c:\Projects\ManagedIrbis\CrmCommon\bin\Debug\CrmCommon.dll
+c:\Projects\ManagedIrbis\CrmCommon\bin\Debug\CrmCommon.pdb
+c:\Projects\ManagedIrbis\CrmCommon\bin\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\CrmCommon\bin\Debug\Antlr4.Runtime.net35.dll
+c:\Projects\ManagedIrbis\CrmCommon\bin\Debug\Antlr4.Runtime.net35.xml
+c:\Projects\ManagedIrbis\CrmCommon\bin\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\CrmCommon\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\ManagedIrbis\CrmCommon\obj\Debug\CrmCommon.dll
+c:\Projects\ManagedIrbis\CrmCommon\obj\Debug\CrmCommon.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\bin\Debug\CrmCommon.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\bin\Debug\CrmCommon.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\bin\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\bin\Debug\ManagedClient.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\obj\Debug\CrmCommon.csprojResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\obj\Debug\CrmCommon.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\CrmCommon\obj\Debug\CrmCommon.pdb

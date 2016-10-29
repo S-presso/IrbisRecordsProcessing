@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7F4E8645-4D5C-4566-B46C-C4E932605F69}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IrbisRecordsProcessing</RootNamespace>
+    <AssemblyName>IrbisRecordsProcessing</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="ManagedClient, Version=1.5.7.55, Culture=neutral, PublicKeyToken=6d1a05bf134decdf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="OMS.Ice.T4Generator, Version=1.6.40.29511, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\OMS.Ice.1.6.0.29511\lib\net40-client\OMS.Ice.T4Generator.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="PrinterPlusPlusSDK">
+      <HintPath>..\..\..\..\..\..\..\PrinterPlusPlus\PrinterPlusPlusSDK.dll</HintPath>
+    </Reference>
+    <Reference Include="RemObjects.Script">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\RemObjects.Script.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Core">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Edit.Windows">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Edit.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Base">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Grid.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Grid.Windows">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Grid.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Base">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Shared.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Shared.Windows">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Shared.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.Tools.Windows">
+      <HintPath>C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\АльтерВвод.NET\IRBIS64.NET\bin\Debug\Syncfusion.Tools.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Razor, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\RazorMachine.2.6.1\lib\net40\System.Web.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xipton.Razor, Version=2.6.1.0, Culture=neutral, PublicKeyToken=563e02c711ac8b7e, processorArchitecture=MSIL">
+      <HintPath>..\packages\RazorMachine.2.6.1\lib\net40\Xipton.Razor.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ExtractedValue.cs" />
+    <Compile Include="FindReplaceScriptEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FindReplaceScriptEditor.Designer.cs">
+      <DependentUpon>FindReplaceScriptEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Processor.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RemObjectUtils.cs" />
+    <Compile Include="ScenarioFindReplaceResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScenarioFindReplaceResults.Designer.cs">
+      <DependentUpon>ScenarioFindReplaceResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Template1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Template1.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="FindReplaceScriptEditor.resx">
+      <DependentUpon>FindReplaceScriptEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScenarioFindReplaceResults.resx">
+      <DependentUpon>ScenarioFindReplaceResults.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="Template1.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Template1.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="razormachine.readme.txt" />
+    <Content Include="Template1_Razor.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

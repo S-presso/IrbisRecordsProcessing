@@ -1,0 +1,36 @@
+C:\Temp3\ManagedClient\bin\Debug\ManagedClient.dll
+C:\Temp3\ManagedClient\bin\Debug\ManagedClient.pdb
+C:\Temp3\ManagedClient\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Temp3\ManagedClient\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Temp3\ManagedClient\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\ManagedClient\obj\Debug\ManagedClient.dll
+C:\Temp3\ManagedClient\obj\Debug\ManagedClient.pdb
+e:\Irbis\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.csprojResolveAssemblyReference.cache
+e:\Irbis\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.dll
+e:\Irbis\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.pdb
+e:\Irbis\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.dll
+e:\Irbis\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.pdb
+e:\Irbis\ManagedIrbis\ManagedClient\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\S-presso\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.dll
+C:\Users\S-presso\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.pdb
+C:\Users\S-presso\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\S-presso\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.csprojResolveAssemblyReference.cache
+C:\Users\S-presso\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.dll
+C:\Users\S-presso\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\ManagedClient\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\ManagedClient\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.csprojResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.pdb
+D:\Irbis\IrbisProcessRecords\Source\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.dll
+D:\Irbis\IrbisProcessRecords\Source\ManagedIrbis\ManagedClient\bin\Debug\ManagedClient.pdb
+D:\Irbis\IrbisProcessRecords\Source\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.csprojResolveAssemblyReference.cache
+D:\Irbis\IrbisProcessRecords\Source\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.dll
+D:\Irbis\IrbisProcessRecords\Source\ManagedIrbis\ManagedClient\obj\Debug\ManagedClient.pdb

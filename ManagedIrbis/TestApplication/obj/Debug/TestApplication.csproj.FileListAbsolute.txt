@@ -1,0 +1,27 @@
+C:\Temp3\TestApplication\bin\Debug\TestApplication.exe
+C:\Temp3\TestApplication\bin\Debug\TestApplication.pdb
+C:\Temp3\TestApplication\bin\Debug\ManagedClient.dll
+C:\Temp3\TestApplication\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Temp3\TestApplication\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Temp3\TestApplication\bin\Debug\ManagedClient.pdb
+C:\Temp3\TestApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\TestApplication\obj\Debug\TestApplication.exe
+C:\Temp3\TestApplication\obj\Debug\TestApplication.pdb
+c:\Projects\ManagedIrbis\TestApplication\obj\Debug\TestApplication.exe
+c:\Projects\ManagedIrbis\TestApplication\obj\Debug\TestApplication.pdb
+c:\Projects\ManagedIrbis\TestApplication\bin\Debug\TestApplication.exe
+c:\Projects\ManagedIrbis\TestApplication\bin\Debug\TestApplication.pdb
+c:\Projects\ManagedIrbis\TestApplication\bin\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\TestApplication\bin\Debug\Antlr4.Runtime.net35.dll
+c:\Projects\ManagedIrbis\TestApplication\bin\Debug\Antlr4.Runtime.net35.xml
+c:\Projects\ManagedIrbis\TestApplication\bin\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\TestApplication\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\obj\Debug\TestApplication.exe
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\obj\Debug\TestApplication.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\bin\Debug\TestApplication.exe
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\bin\Debug\TestApplication.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\bin\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\bin\Debug\ManagedClient.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\TestApplication\obj\Debug\TestApplication.csprojResolveAssemblyReference.cache

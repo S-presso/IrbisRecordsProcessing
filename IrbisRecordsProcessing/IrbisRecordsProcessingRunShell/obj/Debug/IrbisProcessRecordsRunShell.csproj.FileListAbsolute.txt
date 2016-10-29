@@ -1,0 +1,36 @@
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.csprojResolveAssemblyReference.cache
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.Properties.Resources.resources
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.csproj.GenerateResource.Cache
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.frmMain.resources
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecordsRunShell.exe
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecordsRunShell.pdb
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecords.dll
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\PrinterPlusPlusSDK.dll
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecords.pdb
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.exe
+C:\Users\Арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecordsRunShell.exe
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecords.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\ManagedClient.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Edit.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\RemObjects.Script.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Grid.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Shared.Base.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Tools.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Antlr4.Runtime.net35.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Core.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Shared.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Grid.Base.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Syncfusion.Tools.Base.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecords.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\ManagedClient.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\Antlr4.Runtime.net35.xml
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.csprojResolveAssemblyReference.cache
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.frmMain.resources
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.Properties.Resources.resources
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.csproj.GenerateResource.Cache
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.exe
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecordsRunShell\bin\Debug\IrbisProcessRecordsRunShell.pdb
+d:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.exe
+d:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisProcessRecordsRunShell\obj\Debug\IrbisProcessRecordsRunShell.pdb

@@ -1,0 +1,29 @@
+C:\Temp3\IrbisAutomation\bin\Debug\IrbisAutomation.dll
+C:\Temp3\IrbisAutomation\bin\Debug\IrbisAutomation.pdb
+C:\Temp3\IrbisAutomation\bin\Debug\ManagedClient.dll
+C:\Temp3\IrbisAutomation\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Temp3\IrbisAutomation\bin\Debug\ManagedClient.pdb
+C:\Temp3\IrbisAutomation\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Temp3\IrbisAutomation\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\IrbisAutomation\obj\Debug\IrbisAutomation.dll
+C:\Temp3\IrbisAutomation\obj\Debug\IrbisAutomation.pdb
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\IrbisAutomation.dll
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\IrbisAutomation.pdb
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\Antlr4.Runtime.net35.dll
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\Antlr4.Runtime.net35.xml
+c:\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\RemObjects.Script.pdb
+c:\Projects\ManagedIrbis\IrbisAutomation\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\ManagedIrbis\IrbisAutomation\obj\Debug\IrbisAutomation.dll
+c:\Projects\ManagedIrbis\IrbisAutomation\obj\Debug\IrbisAutomation.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\IrbisAutomation.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\IrbisAutomation.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\ManagedClient.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\RemObjects.Script.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\obj\Debug\IrbisAutomation.csprojResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\obj\Debug\IrbisAutomation.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisAutomation\obj\Debug\IrbisAutomation.pdb

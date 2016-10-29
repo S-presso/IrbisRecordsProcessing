@@ -1,0 +1,62 @@
+C:\Temp3\IrbisRfid\bin\Debug\IrbisRfid.dll
+C:\Temp3\IrbisRfid\bin\Debug\IrbisRfid.pdb
+C:\Temp3\IrbisRfid\bin\Debug\ManagedClient.dll
+C:\Temp3\IrbisRfid\bin\Debug\pcsc-sharp.dll
+C:\Temp3\IrbisRfid\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Temp3\IrbisRfid\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Temp3\IrbisRfid\bin\Debug\ManagedClient.pdb
+C:\Temp3\IrbisRfid\bin\Debug\pcsc-sharp.pdb
+C:\Temp3\IrbisRfid\bin\Debug\pcsc-sharp.xml
+C:\Temp3\IrbisRfid\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\IrbisRfid\obj\Debug\IrbisRfid.dll
+C:\Temp3\IrbisRfid\obj\Debug\IrbisRfid.pdb
+C:\Temp3\IrbisRfid\bin\Debug\OBIDISC4NETnative.dll
+C:\Temp3\IrbisRfid\bin\Debug\FeCom.dll
+C:\Temp3\IrbisRfid\bin\Debug\FedmIscCoreVC80.dll
+C:\Temp3\IrbisRfid\bin\Debug\FedmIscMyAxxessVC80.dll
+C:\Temp3\IrbisRfid\bin\Debug\fefu.dll
+C:\Temp3\IrbisRfid\bin\Debug\FeIsc.dll
+C:\Temp3\IrbisRfid\bin\Debug\fetcl.dll
+C:\Temp3\IrbisRfid\bin\Debug\fetcp.dll
+C:\Temp3\IrbisRfid\bin\Debug\feusb.dll
+C:\Temp3\IrbisRfid\bin\Debug\OBIDISC4NET.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FeCom.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FedmIscCoreVC80.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FedmIscMyAxxessVC80.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\fefu.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FeIsc.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\fetcl.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\fetcp.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\feusb.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\OBIDISC4NETnative.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\IrbisRfid.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\IrbisRfid.pdb
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\Antlr4.Runtime.net35.dll
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\Antlr4.Runtime.net35.xml
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\pcsc-sharp.pdb
+c:\Projects\ManagedIrbis\IrbisRfid\bin\Debug\pcsc-sharp.xml
+c:\Projects\ManagedIrbis\IrbisRfid\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\ManagedIrbis\IrbisRfid\obj\Debug\IrbisRfid.dll
+c:\Projects\ManagedIrbis\IrbisRfid\obj\Debug\IrbisRfid.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FeCom.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FedmIscCoreVC80.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FedmIscMyAxxessVC80.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\fefu.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\FeIsc.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\fetcl.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\fetcp.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\feusb.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\OBIDISC4NETnative.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\IrbisRfid.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\IrbisRfid.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\ManagedClient.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\pcsc-sharp.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\pcsc-sharp.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\obj\Debug\IrbisRfid.csprojResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\obj\Debug\IrbisRfid.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisRfid\obj\Debug\IrbisRfid.pdb

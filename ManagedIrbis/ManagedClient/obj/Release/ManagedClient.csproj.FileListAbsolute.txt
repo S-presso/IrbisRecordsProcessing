@@ -1,0 +1,7 @@
+C:\Temp3\ManagedClient\bin\Release\ManagedClient.dll
+C:\Temp3\ManagedClient\bin\Release\ManagedClient.pdb
+C:\Temp3\ManagedClient\bin\Release\Antlr4.Runtime.net35.dll
+C:\Temp3\ManagedClient\bin\Release\Antlr4.Runtime.net35.xml
+C:\Temp3\ManagedClient\obj\Release\ResolveAssemblyReference.cache
+C:\Temp3\ManagedClient\obj\Release\ManagedClient.dll
+C:\Temp3\ManagedClient\obj\Release\ManagedClient.pdb

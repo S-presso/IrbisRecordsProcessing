@@ -1,0 +1,33 @@
+C:\Temp3\IrbisUI\bin\Debug\IrbisUI.dll
+C:\Temp3\IrbisUI\bin\Debug\IrbisUI.pdb
+C:\Temp3\IrbisUI\bin\Debug\ManagedClient.dll
+C:\Temp3\IrbisUI\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Temp3\IrbisUI\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Temp3\IrbisUI\bin\Debug\ManagedClient.pdb
+C:\Temp3\IrbisUI\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\IrbisUI\obj\Debug\IrbisUI.IrbisBusyForm.resources
+C:\Temp3\IrbisUI\obj\Debug\IrbisUI.csproj.GenerateResource.Cache
+C:\Temp3\IrbisUI\obj\Debug\IrbisUI.dll
+C:\Temp3\IrbisUI\obj\Debug\IrbisUI.pdb
+c:\Projects\ManagedIrbis\IrbisUI\bin\Debug\IrbisUI.dll
+c:\Projects\ManagedIrbis\IrbisUI\bin\Debug\IrbisUI.pdb
+c:\Projects\ManagedIrbis\IrbisUI\bin\Debug\ManagedClient.dll
+c:\Projects\ManagedIrbis\IrbisUI\bin\Debug\Antlr4.Runtime.net35.dll
+c:\Projects\ManagedIrbis\IrbisUI\bin\Debug\Antlr4.Runtime.net35.xml
+c:\Projects\ManagedIrbis\IrbisUI\bin\Debug\ManagedClient.pdb
+c:\Projects\ManagedIrbis\IrbisUI\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.IrbisBusyForm.resources
+c:\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.csproj.GenerateResource.Cache
+c:\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.dll
+c:\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\bin\Debug\IrbisUI.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\bin\Debug\IrbisUI.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\bin\Debug\ManagedClient.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\bin\Debug\Antlr4.Runtime.net35.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\bin\Debug\ManagedClient.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\bin\Debug\Antlr4.Runtime.net35.xml
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.csprojResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.IrbisBusyForm.resources
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.csproj.GenerateResource.Cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\IrbisUI\obj\Debug\IrbisUI.pdb

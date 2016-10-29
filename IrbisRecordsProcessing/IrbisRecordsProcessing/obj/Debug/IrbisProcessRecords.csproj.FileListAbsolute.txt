@@ -1,0 +1,28 @@
+c:\users\арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\IrbisProcessRecords.dll
+c:\users\арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\IrbisProcessRecords.pdb
+c:\users\арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\PrinterPlusPlusSDK.dll
+c:\users\арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.csprojResolveAssemblyReference.cache
+c:\users\арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.dll
+c:\users\арсений\documents\visual studio 2013\Projects\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\IrbisProcessRecords.dll.config
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\IrbisProcessRecords.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\IrbisProcessRecords.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\ManagedClient.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\RemObjects.Script.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Core.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Edit.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Grid.Base.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Grid.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Shared.Base.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Shared.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Tools.Windows.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Antlr4.Runtime.net35.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Syncfusion.Tools.Base.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\ManagedClient.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\bin\Debug\Antlr4.Runtime.net35.xml
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.FindReplaceScriptEditor.resources
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.csproj.GenerateResource.Cache
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.ScenarioFindReplaceResultsForm.resources
+D:\Irbis\IrbisProcessRecords\Source\IrbisProcessRecords\IrbisProcessRecords\obj\Debug\IrbisProcessRecords.csprojResolveAssemblyReference.cache

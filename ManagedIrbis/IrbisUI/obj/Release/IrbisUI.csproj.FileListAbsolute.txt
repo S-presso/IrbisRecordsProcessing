@@ -1,0 +1,11 @@
+C:\Temp3\IrbisUI\bin\Release\IrbisUI.dll
+C:\Temp3\IrbisUI\bin\Release\IrbisUI.pdb
+C:\Temp3\IrbisUI\bin\Release\ManagedClient.dll
+C:\Temp3\IrbisUI\bin\Release\Antlr4.Runtime.net35.dll
+C:\Temp3\IrbisUI\bin\Release\Antlr4.Runtime.net35.xml
+C:\Temp3\IrbisUI\bin\Release\ManagedClient.pdb
+C:\Temp3\IrbisUI\obj\Release\ResolveAssemblyReference.cache
+C:\Temp3\IrbisUI\obj\Release\IrbisUI.IrbisBusyForm.resources
+C:\Temp3\IrbisUI\obj\Release\IrbisUI.csproj.GenerateResource.Cache
+C:\Temp3\IrbisUI\obj\Release\IrbisUI.dll
+C:\Temp3\IrbisUI\obj\Release\IrbisUI.pdb

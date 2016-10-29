@@ -1,0 +1,10 @@
+C:\Temp3\AM.Core\bin\Release\AM.Core.dll
+C:\Temp3\AM.Core\bin\Release\AM.Core.pdb
+C:\Temp3\AM.Core\bin\Release\ru\AM.Core.resources.dll
+C:\Temp3\AM.Core\obj\Release\ResolveAssemblyReference.cache
+C:\Temp3\AM.Core\obj\Release\AM.Core.Properties.Resources.resources
+C:\Temp3\AM.Core\obj\Release\AM.Core.Properties.Resources.ru.resources
+C:\Temp3\AM.Core\obj\Release\AM.Core.csproj.GenerateResource.Cache
+C:\Temp3\AM.Core\obj\Release\ru\AM.Core.resources.dll
+C:\Temp3\AM.Core\obj\Release\AM.Core.dll
+C:\Temp3\AM.Core\obj\Release\AM.Core.pdb

@@ -1,0 +1,25 @@
+﻿@{  string code;
+	if (!String.IsNullOrEmpty(Model.record.FM("906"))) {
+		code = Model.record.FM("906");
+	}
+	else if (!String.IsNullOrEmpty(Model.record.FM("675"))) {
+		code = Model.record.FM("675");
+	}
+	else
+	{
+		code = Model.record.FM("903");
+	}
+@code
+<br/>
+}
+@Model.client.FormatRecord("@BRIEF", Model.record)
+<br/>
+@foreach (var field in RemObjectUtils.GetField(Model.record, "910")) { 
+	@field.GetFirstSubFieldText('B')
+	<br/>
+}
+<br/>
+<br/>
+----------
+<br/>
+<br/>

@@ -1,0 +1,16 @@
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\obj\Debug\IrbisRecordsProcessing.FindReplaceScriptEditor.resources
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\obj\Debug\IrbisRecordsProcessing.ScenarioFindReplaceResultsForm.resources
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\obj\Debug\IrbisRecordsProcessing.csproj.GenerateResource.Cache
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\IrbisRecordsProcessing.dll.config
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\IrbisRecordsProcessing.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\IrbisRecordsProcessing.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\ManagedClient.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\OMS.Ice.T4Generator.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\System.Web.Razor.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\Xipton.Razor.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\Antlr4.Runtime.net35.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\ManagedClient.pdb
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\bin\Debug\OMS.Ice.T4Generator.xml
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\obj\Debug\IrbisRecordsProcessing.csprojResolveAssemblyReference.cache
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\obj\Debug\IrbisRecordsProcessing.dll
+D:\Irbis\IrbisProcessRecords\Source\IrbisRecordsProcessing\IrbisRecordsProcessing\obj\Debug\IrbisRecordsProcessing.pdb

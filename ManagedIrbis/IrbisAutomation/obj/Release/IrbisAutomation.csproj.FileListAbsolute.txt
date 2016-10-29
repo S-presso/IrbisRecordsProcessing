@@ -1,0 +1,9 @@
+C:\Temp3\IrbisAutomation\bin\Release\IrbisAutomation.dll
+C:\Temp3\IrbisAutomation\bin\Release\IrbisAutomation.pdb
+C:\Temp3\IrbisAutomation\bin\Release\ManagedClient.dll
+C:\Temp3\IrbisAutomation\bin\Release\Antlr4.Runtime.net35.dll
+C:\Temp3\IrbisAutomation\bin\Release\ManagedClient.pdb
+C:\Temp3\IrbisAutomation\bin\Release\Antlr4.Runtime.net35.xml
+C:\Temp3\IrbisAutomation\obj\Release\ResolveAssemblyReference.cache
+C:\Temp3\IrbisAutomation\obj\Release\IrbisAutomation.dll
+C:\Temp3\IrbisAutomation\obj\Release\IrbisAutomation.pdb

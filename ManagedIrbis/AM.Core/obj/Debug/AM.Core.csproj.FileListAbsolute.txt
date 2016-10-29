@@ -1,0 +1,30 @@
+C:\Temp3\AM.Core\bin\Debug\AM.Core.dll
+C:\Temp3\AM.Core\bin\Debug\AM.Core.pdb
+C:\Temp3\AM.Core\bin\Debug\ru\AM.Core.resources.dll
+C:\Temp3\AM.Core\obj\Debug\ResolveAssemblyReference.cache
+C:\Temp3\AM.Core\obj\Debug\AM.Core.Properties.Resources.resources
+C:\Temp3\AM.Core\obj\Debug\AM.Core.Properties.Resources.ru.resources
+C:\Temp3\AM.Core\obj\Debug\AM.Core.csproj.GenerateResource.Cache
+C:\Temp3\AM.Core\obj\Debug\ru\AM.Core.resources.dll
+C:\Temp3\AM.Core\obj\Debug\AM.Core.dll
+C:\Temp3\AM.Core\obj\Debug\AM.Core.pdb
+c:\Projects\ManagedIrbis\AM.Core\bin\Debug\AM.Core.dll
+c:\Projects\ManagedIrbis\AM.Core\bin\Debug\AM.Core.pdb
+c:\Projects\ManagedIrbis\AM.Core\bin\Debug\ru\AM.Core.resources.dll
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\ResolveAssemblyReference.cache
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.Properties.Resources.resources
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.Properties.Resources.ru.resources
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.csproj.GenerateResource.Cache
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\ru\AM.Core.resources.dll
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.dll
+c:\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\bin\Debug\AM.Core.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\bin\Debug\AM.Core.pdb
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\bin\Debug\ru\AM.Core.resources.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.csprojResolveAssemblyReference.cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.Properties.Resources.resources
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.Properties.Resources.ru.resources
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.csproj.GenerateResource.Cache
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\ru\AM.Core.resources.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.dll
+C:\Users\Sliva.books\Documents\Visual Studio 2013\Projects\ManagedIrbis\AM.Core\obj\Debug\AM.Core.pdb
