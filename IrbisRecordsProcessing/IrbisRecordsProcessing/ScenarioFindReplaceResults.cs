@@ -230,52 +230,7 @@ namespace IrbisRecordsProcessing
             SelectSubfieldEmpty = String.IsNullOrWhiteSpace(SelectSubfieldCondition);
 
             find_replaceScriptEditor.SearchScriptResultList = new List<SearchScriptResult>();
-
-            /*ScriptEngine.Globals.SetVariable("SelectRecordCondition", SelectRecordCondition);
-            ScriptEngine.Globals.SetVariable("SelectFieldCondition", SelectFieldCondition);
-            ScriptEngine.Globals.SetVariable("SelectSubfieldCondition", SelectSubfieldCondition);
-            ScriptEngine.Globals.SetVariable("FindTextStr", find_replaceScriptEditor.FindTextStr.Text);
-            ScriptEngine.Globals.SetVariable("ReplaceTextStr", find_replaceScriptEditor.ReplaceTextStr.Text);
-            ScriptEngine.Globals.SetVariable("SearchScriptResultList", SearchScriptResultList);
-
-            ScriptEngine.Source =
-           @"var regexp = new RegExp(FindTextStr, ""g"");
-            for (var mfn = 1; mfn < curDatabase.Length; mfn++)
-            {
-                var Record = client.ReadRecord(mfn);
-                if (eval(SelectRecordCondition))
-                    for (var Field in Record.Fields)
-                        if (eval(SelectFieldCondition))
-                            for (var SubField in Field.SubFields)
-                                if (eval(SelectSubfieldCondition))
-                                    while (result = regexp.exec(SubField.Text))
-                                    {
-                                        var searchScriptResult = new SearchScriptResult();
-                                        searchScriptResult.foundStr = result[0];
-                                        searchScriptResult.replaceToStr = result[0].replace(FindTextStr, ReplaceTextStr);
-                                        searchScriptResult.index = result.index;
-                                        searchScriptResult.mfn = mfn;
-                                        searchScriptResult.field = Field;
-                                        searchScriptResult.subfield = SubField.Code;
-                                        SearchScriptResultList.Add(searchScriptResult);
-                                    }
-            }";
-                
-            try
-            {
-                ScriptEngine.Run();
-            }
-            catch (Exception ex)
-            {
-                MessageBoxAdv.Show(String.Format("Ошибка выполнения сценария. Строка: {0}, позиция: {1}. Сообщение: {2}",
-                                                 ScriptEngine.DebugLastPos.StartRow, ScriptEngine.DebugLastPos.StartCol, ex.ToString()),
-                                                 "Внимание", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
-            }                
-
-            SearchScriptResultList = RemObjectUtils.GetUnwrappedVariable<List<SearchScriptResult>>(ScriptEngine, "SearchScriptResultList");*/
-
-
+            
             IrbisRecord Record;
             MatchCollection searchMatches;
             List<MyMatch> searchMatchesList;
@@ -291,24 +246,31 @@ namespace IrbisRecordsProcessing
             int index = 0;
 
             StringBuilder templateProlog = new StringBuilder();
-            /*templateProlog.AppendLine("<#@ template language=\"C#\" #>");
-            templateProlog.AppendLine("<#@ assembly name=\"System.Core.dll\" #>");
-            templateProlog.AppendLine("<#@ import namespace=\"System.Collections.Generic\" #>");
-            templateProlog.AppendLine("<#@ assembly name=\"$(ProjectDir)$(OutDir)ManagedClient.dll\" #>");
-            templateProlog.AppendLine("<#@ import namespace=\"ManagedClient\" #>");
-            templateProlog.AppendLine("<#@ parameter type=\"ManagedClient64\" name=\"client\" #>");*/
-            templateProlog.AppendLine("@using ManagedClient");
-            templateProlog.AppendLine("@using IrbisRecordsProcessing");
+
+            if (templateMode == TemplateMode.T4)
+            {
+                templateProlog.AppendLine("<#@ template language=\"C#\" #>");
+                templateProlog.AppendLine("<#@ assembly name=\"System.Core.dll\" #>");
+                templateProlog.AppendLine("<#@ import namespace=\"System.Collections.Generic\" #>");
+                templateProlog.AppendLine("<#@ assembly name=\"$(ProjectDir)$(OutDir)ManagedClient.dll\" #>");
+                templateProlog.AppendLine("<#@ import namespace=\"ManagedClient\" #>");
+                templateProlog.AppendLine("<#@ parameter type=\"ManagedClient64\" name=\"client\" #>");
+            }
+            else
+            {
+                templateProlog.AppendLine("@using ManagedClient");
+                templateProlog.AppendLine("@using IrbisRecordsProcessing");
+                templateProlog.AppendLine("@{ String EoL = Environment.NewLine; }");
+            }
 
             ScriptEngine.Globals.SetVariable("client", find_replaceScriptEditor.client);
             ScriptEngine.Globals.SetVariable("curDatabase", find_replaceScriptEditor.curDatabase);
 
-            //find_replaceScriptEditor.client
-            
+                        
             StringBuilder templatePrologStr;
 
             if (workMode == WorkMode.Script)
-                RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.ScriptForPrologCode);
+                RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.PrologScriptCode);
             else if (workMode == WorkMode.Template)
                 if (templateMode == TemplateMode.T4)
                     Utils.AppendGeneratedT4Template(find_replaceScriptEditor.PrologTemplate.Text, templateProlog, ref templateStringBuilder, find_replaceScriptEditor.client);
@@ -333,13 +295,15 @@ namespace IrbisRecordsProcessing
                 if (workMode == WorkMode.Template)
                 {
                     templatePrologStr = new StringBuilder();
-                    //templatePrologStr.Append(templateProlog).AppendLine("<#@ parameter type=\"IrbisRecord\" name=\"record\" #>");
                     templatePrologStr.Append(templateProlog);
                     if (templateMode == TemplateMode.T4)
+                    {
+                        templatePrologStr.Append(templateProlog).AppendLine("<#@ parameter type=\"IrbisRecord\" name=\"record\" #>");
                         Utils.AppendGeneratedT4Template(find_replaceScriptEditor.WorkingTemplate.Text, templatePrologStr, ref templateStringBuilder, find_replaceScriptEditor.client, Record);
+                    }
                     else
                         Utils.AppendGeneratedRazorTemplate(find_replaceScriptEditor.WorkingTemplate.Text, templatePrologStr, ref templateStringBuilder,
-                            new { client =  find_replaceScriptEditor.client, record = Record });
+                            new { client = find_replaceScriptEditor.client, record = Record });
                     continue;                    
                 }
 
@@ -347,9 +311,12 @@ namespace IrbisRecordsProcessing
                 {
                     if (workMode == WorkMode.Script)
                     {
-                        RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.ScriptForRecordCode, RecordStr, Record);
-                        if (String.IsNullOrWhiteSpace(find_replaceScriptEditor.ScriptForFieldCode) && String.IsNullOrWhiteSpace(find_replaceScriptEditor.ScriptForSubfieldCode))
+                        RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.PrologRecordScriptCode, RecordStr, Record);
+                        if (String.IsNullOrWhiteSpace(find_replaceScriptEditor.SubfieldScriptCode) && String.IsNullOrWhiteSpace(find_replaceScriptEditor.SubfieldScriptCode))
+                        {
+                            RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.EpilogRecordScriptCode);
                             continue;
+                        }
                     }
                     
                     foreach (RecordField Field in Record.Fields)
@@ -362,8 +329,8 @@ namespace IrbisRecordsProcessing
                         {
                             if (workMode == WorkMode.Script)
                             {
-                                RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.ScriptForFieldCode, FieldStr, Field);
-                                if (String.IsNullOrWhiteSpace(find_replaceScriptEditor.ScriptForSubfieldCode))
+                                RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.FieldScriptCode, FieldStr, Field);
+                                if (String.IsNullOrWhiteSpace(find_replaceScriptEditor.SubfieldScriptCode))
                                     continue;
                             }
                             
@@ -385,7 +352,7 @@ namespace IrbisRecordsProcessing
                                     {
                                         if (workMode == WorkMode.Script)
                                         {
-                                            RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.ScriptForSubfieldCode, SubFieldStr, Subfield);
+                                            RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.SubfieldScriptCode, SubFieldStr, Subfield);
                                             continue;
                                         }
                                         
@@ -498,13 +465,14 @@ namespace IrbisRecordsProcessing
                                 }                                
                             }
                         }
-                    }
-                }                
-            }           
-
+                    }                    
+                }
+                if (workMode == WorkMode.Script)                
+                    RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.EpilogRecordScriptCode);
+            }
             
             if (workMode == WorkMode.Script)
-                RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.ScriptForEpilogCode);
+                RemObjectUtils.ScriptRun(ScriptEngine, find_replaceScriptEditor.EpilogScriptCode);
             else if (workMode == WorkMode.Template)
                 if (templateMode == TemplateMode.T4)
                     Utils.AppendGeneratedT4Template(find_replaceScriptEditor.EpilogTemplate.Text, templateProlog, ref templateStringBuilder, find_replaceScriptEditor.client);
@@ -755,7 +723,7 @@ namespace IrbisRecordsProcessing
             
             RazorMachine rm = new RazorMachine();
             ITemplate template = rm.ExecuteContent(templateStr.ToString(), model);
-            templateStringBuilder.Append(template.Result.Replace("<br/>", Environment.NewLine));
+            templateStringBuilder.Append(template.Result);
         }
 
         public static string GetTempFilePathWithExtension(string extension)

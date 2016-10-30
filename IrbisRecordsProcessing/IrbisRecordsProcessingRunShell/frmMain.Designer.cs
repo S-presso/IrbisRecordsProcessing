@@ -148,7 +148,7 @@ namespace IrbisRecordsProcessing
             this.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Name = "frmMain";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Printer++";
+            this.Text = "IrbisRecordsProcessingRunShell";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmMain_FormClosing);
             this.mnuTray.ResumeLayout(false);
             this.ResumeLayout(false);

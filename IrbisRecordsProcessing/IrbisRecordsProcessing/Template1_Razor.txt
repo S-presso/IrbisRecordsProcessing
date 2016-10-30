@@ -10,16 +10,18 @@
 		code = Model.record.FM("903");
 	}
 @code
-<br/>
+@EoL
 }
 @Model.client.FormatRecord("@BRIEF", Model.record)
-<br/>
+@EoL
+Инвентарные номера:
+@EoL
 @foreach (var field in RemObjectUtils.GetField(Model.record, "910")) { 
 	@field.GetFirstSubFieldText('B')
-	<br/>
+	@EoL
 }
-<br/>
-<br/>
-----------
-<br/>
-<br/>
+@EoL
+@EoL
+--------------------
+@EoL
+@EoL

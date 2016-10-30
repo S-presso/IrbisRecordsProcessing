@@ -19,7 +19,7 @@ namespace IrbisRecordsProcessing
         public ManagedClient.ManagedClient64.IrbisDatabase curDatabase;
         public String SelectRecordCondition, SelectFieldCondition, SelectSubfieldCondition;
         public String FindTextString, ReplaceTextString;
-        public String ScriptForPrologCode, ScriptForEpilogCode, ScriptForRecordCode, ScriptForFieldCode, ScriptForSubfieldCode;
+        public String PrologScriptCode, EpilogScriptCode, PrologRecordScriptCode, EpilogRecordScriptCode, FieldScriptCode, SubfieldScriptCode;
         public int activeTabIndex = 0;
         public ExtractedValue recordsData;
         Configuration config;
@@ -106,11 +106,12 @@ namespace IrbisRecordsProcessing
                 
             ReplaceTextString = ReplaceTextStr.Text;
 
-            ScriptForPrologCode = ScriptForProlog.Text;
-            ScriptForEpilogCode = ScriptForEpilog.Text;
-            ScriptForRecordCode = ScriptForRecord.Text;
-            ScriptForFieldCode = ScriptForField.Text;
-            ScriptForSubfieldCode = ScriptForSubfield.Text;
+            PrologScriptCode = PrologScript.Text;
+            EpilogScriptCode = EpilogScript.Text;
+            PrologRecordScriptCode = PrologScriptForRecord.Text;
+            EpilogRecordScriptCode = EpilogScriptForRecord.Text;
+            FieldScriptCode = ScriptForField.Text;
+            SubfieldScriptCode = ScriptForSubfield.Text;
         }
 
         private void tabControlFindReplace_SelectedIndexChanged(object sender, EventArgs e)

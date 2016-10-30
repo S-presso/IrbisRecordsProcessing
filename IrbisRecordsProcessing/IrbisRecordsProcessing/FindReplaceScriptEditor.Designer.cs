@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config1 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config2 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config3 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config4 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config5 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config6 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config8 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config9 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config10 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config11 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config12 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config13 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config14 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
             Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config15 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config16 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config17 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config21 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config22 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config23 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config24 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config25 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config26 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config27 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config28 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config18 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config19 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
-            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config20 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
+            Syncfusion.Windows.Forms.Edit.Implementation.Config.Config config7 = new Syncfusion.Windows.Forms.Edit.Implementation.Config.Config();
             this.panel2 = new System.Windows.Forms.Panel();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnOk = new System.Windows.Forms.Button();
@@ -68,22 +69,24 @@
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
-            this.ScriptForEpilog = new Syncfusion.Windows.Forms.Edit.EditControl();
+            this.EpilogScript = new Syncfusion.Windows.Forms.Edit.EditControl();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.ScriptForSubfield = new Syncfusion.Windows.Forms.Edit.EditControl();
             this.ScriptForField = new Syncfusion.Windows.Forms.Edit.EditControl();
-            this.ScriptForRecord = new Syncfusion.Windows.Forms.Edit.EditControl();
-            this.ScriptForProlog = new Syncfusion.Windows.Forms.Edit.EditControl();
+            this.PrologScriptForRecord = new Syncfusion.Windows.Forms.Edit.EditControl();
+            this.PrologScript = new Syncfusion.Windows.Forms.Edit.EditControl();
             this.tabPage4 = new System.Windows.Forms.TabPage();
+            this.cmbTemplateType = new System.Windows.Forms.ComboBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.textBox8 = new System.Windows.Forms.TextBox();
             this.WorkingTemplate = new Syncfusion.Windows.Forms.Edit.EditControl();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.EpilogTemplate = new Syncfusion.Windows.Forms.Edit.EditControl();
             this.PrologTemplate = new Syncfusion.Windows.Forms.Edit.EditControl();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.cmbTemplateType = new System.Windows.Forms.ComboBox();
+            this.textBox10 = new System.Windows.Forms.TextBox();
+            this.EpilogScriptForRecord = new Syncfusion.Windows.Forms.Edit.EditControl();
             this.panel2.SuspendLayout();
             this.grpConditions.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.SelectSubfieldConditionScriptEdit)).BeginInit();
@@ -96,15 +99,16 @@
             ((System.ComponentModel.ISupportInitialize)(this.FindTextStr)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ReplaceTextStr)).BeginInit();
             this.tabPage3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptForEpilog)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EpilogScript)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ScriptForSubfield)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ScriptForField)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptForRecord)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptForProlog)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PrologScriptForRecord)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PrologScript)).BeginInit();
             this.tabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.WorkingTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.EpilogTemplate)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PrologTemplate)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EpilogScriptForRecord)).BeginInit();
             this.SuspendLayout();
             // 
             // panel2
@@ -186,7 +190,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectSubfieldConditionScriptEdit.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.SelectSubfieldConditionScriptEdit.Configurator = config15;
+            this.SelectSubfieldConditionScriptEdit.Configurator = config1;
             this.SelectSubfieldConditionScriptEdit.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.SelectSubfieldConditionScriptEdit.Location = new System.Drawing.Point(140, 85);
             this.SelectSubfieldConditionScriptEdit.Name = "SelectSubfieldConditionScriptEdit";
@@ -227,7 +231,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectFieldConditionScriptEdit.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.SelectFieldConditionScriptEdit.Configurator = config16;
+            this.SelectFieldConditionScriptEdit.Configurator = config2;
             this.SelectFieldConditionScriptEdit.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.SelectFieldConditionScriptEdit.Location = new System.Drawing.Point(141, 54);
             this.SelectFieldConditionScriptEdit.Name = "SelectFieldConditionScriptEdit";
@@ -268,7 +272,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectRecordConditionScriptEdit.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.SelectRecordConditionScriptEdit.Configurator = config17;
+            this.SelectRecordConditionScriptEdit.Configurator = config3;
             this.SelectRecordConditionScriptEdit.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.SelectRecordConditionScriptEdit.Location = new System.Drawing.Point(141, 21);
             this.SelectRecordConditionScriptEdit.Name = "SelectRecordConditionScriptEdit";
@@ -348,7 +352,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FindTextStr2.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.FindTextStr2.Configurator = config21;
+            this.FindTextStr2.Configurator = config4;
             this.FindTextStr2.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.FindTextStr2.Location = new System.Drawing.Point(134, 50);
             this.FindTextStr2.Name = "FindTextStr2";
@@ -404,7 +408,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.FindTextStr.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.FindTextStr.Configurator = config22;
+            this.FindTextStr.Configurator = config5;
             this.FindTextStr.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.FindTextStr.Location = new System.Drawing.Point(122, 24);
             this.FindTextStr.Name = "FindTextStr";
@@ -445,7 +449,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ReplaceTextStr.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.ReplaceTextStr.Configurator = config23;
+            this.ReplaceTextStr.Configurator = config6;
             this.ReplaceTextStr.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.ReplaceTextStr.Location = new System.Drawing.Point(122, 59);
             this.ReplaceTextStr.Name = "ReplaceTextStr";
@@ -483,16 +487,18 @@
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.SystemColors.Control;
+            this.tabPage3.Controls.Add(this.textBox10);
+            this.tabPage3.Controls.Add(this.EpilogScriptForRecord);
             this.tabPage3.Controls.Add(this.textBox5);
             this.tabPage3.Controls.Add(this.textBox4);
             this.tabPage3.Controls.Add(this.textBox3);
-            this.tabPage3.Controls.Add(this.ScriptForEpilog);
+            this.tabPage3.Controls.Add(this.EpilogScript);
             this.tabPage3.Controls.Add(this.textBox2);
             this.tabPage3.Controls.Add(this.textBox1);
             this.tabPage3.Controls.Add(this.ScriptForSubfield);
             this.tabPage3.Controls.Add(this.ScriptForField);
-            this.tabPage3.Controls.Add(this.ScriptForRecord);
-            this.tabPage3.Controls.Add(this.ScriptForProlog);
+            this.tabPage3.Controls.Add(this.PrologScriptForRecord);
+            this.tabPage3.Controls.Add(this.PrologScript);
             this.tabPage3.Location = new System.Drawing.Point(4, 22);
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(654, 368);
@@ -501,7 +507,7 @@
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(3, 289);
+            this.textBox5.Location = new System.Drawing.Point(3, 226);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(114, 20);
             this.textBox5.TabIndex = 10;
@@ -509,7 +515,7 @@
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(3, 207);
+            this.textBox4.Location = new System.Drawing.Point(3, 163);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(114, 20);
             this.textBox4.TabIndex = 9;
@@ -517,47 +523,47 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(3, 121);
+            this.textBox3.Location = new System.Drawing.Point(3, 103);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(114, 20);
+            this.textBox3.Size = new System.Drawing.Size(171, 20);
             this.textBox3.TabIndex = 8;
-            this.textBox3.Text = "Код для записей";
+            this.textBox3.Text = "Код инициализации для записей";
             // 
-            // ScriptForEpilog
+            // EpilogScript
             // 
-            this.ScriptForEpilog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.EpilogScript.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ScriptForEpilog.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.ScriptForEpilog.Configurator = config24;
-            this.ScriptForEpilog.IndicatorMarginBackColor = System.Drawing.Color.Empty;
-            this.ScriptForEpilog.Location = new System.Drawing.Point(124, 315);
-            this.ScriptForEpilog.Name = "ScriptForEpilog";
-            this.ScriptForEpilog.RenderRightToLeft = false;
-            this.ScriptForEpilog.SaveOnClose = false;
-            this.ScriptForEpilog.ScrollPosition = new System.Drawing.Point(0, 0);
-            this.ScriptForEpilog.Size = new System.Drawing.Size(523, 50);
-            this.ScriptForEpilog.StatusBarSettings.CoordsPanel.Width = 150;
-            this.ScriptForEpilog.StatusBarSettings.EncodingPanel.Width = 100;
-            this.ScriptForEpilog.StatusBarSettings.FileNamePanel.Width = 100;
-            this.ScriptForEpilog.StatusBarSettings.InsertPanel.Width = 33;
-            this.ScriptForEpilog.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
-            this.ScriptForEpilog.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
-            this.ScriptForEpilog.StatusBarSettings.StatusPanel.Width = 70;
-            this.ScriptForEpilog.StatusBarSettings.TextPanel.Width = 214;
-            this.ScriptForEpilog.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
-            this.ScriptForEpilog.TabIndex = 7;
-            this.ScriptForEpilog.Text = "";
-            this.ScriptForEpilog.UseXPStyleBorder = true;
-            this.ScriptForEpilog.VisualColumn = 1;
+            this.EpilogScript.CodeSnipptSize = new System.Drawing.Size(100, 100);
+            this.EpilogScript.Configurator = config8;
+            this.EpilogScript.IndicatorMarginBackColor = System.Drawing.Color.Empty;
+            this.EpilogScript.Location = new System.Drawing.Point(173, 315);
+            this.EpilogScript.Name = "EpilogScript";
+            this.EpilogScript.RenderRightToLeft = false;
+            this.EpilogScript.SaveOnClose = false;
+            this.EpilogScript.ScrollPosition = new System.Drawing.Point(0, 0);
+            this.EpilogScript.Size = new System.Drawing.Size(474, 50);
+            this.EpilogScript.StatusBarSettings.CoordsPanel.Width = 150;
+            this.EpilogScript.StatusBarSettings.EncodingPanel.Width = 100;
+            this.EpilogScript.StatusBarSettings.FileNamePanel.Width = 100;
+            this.EpilogScript.StatusBarSettings.InsertPanel.Width = 33;
+            this.EpilogScript.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
+            this.EpilogScript.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
+            this.EpilogScript.StatusBarSettings.StatusPanel.Width = 70;
+            this.EpilogScript.StatusBarSettings.TextPanel.Width = 214;
+            this.EpilogScript.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
+            this.EpilogScript.TabIndex = 7;
+            this.EpilogScript.Text = "";
+            this.EpilogScript.UseXPStyleBorder = true;
+            this.EpilogScript.VisualColumn = 1;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(0, 334);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 20);
+            this.textBox2.Size = new System.Drawing.Size(142, 20);
             this.textBox2.TabIndex = 6;
-            this.textBox2.Text = "Код завершения";
+            this.textBox2.Text = "Общий код завершения";
             // 
             // textBox1
             // 
@@ -565,7 +571,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(114, 20);
             this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "Код инициализации";
+            this.textBox1.Text = "Общий код инициализации";
             // 
             // ScriptForSubfield
             // 
@@ -573,14 +579,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ScriptForSubfield.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.ScriptForSubfield.Configurator = config25;
+            this.ScriptForSubfield.Configurator = config9;
             this.ScriptForSubfield.IndicatorMarginBackColor = System.Drawing.Color.Empty;
-            this.ScriptForSubfield.Location = new System.Drawing.Point(123, 228);
+            this.ScriptForSubfield.Location = new System.Drawing.Point(173, 203);
             this.ScriptForSubfield.Name = "ScriptForSubfield";
             this.ScriptForSubfield.RenderRightToLeft = false;
             this.ScriptForSubfield.SaveOnClose = false;
             this.ScriptForSubfield.ScrollPosition = new System.Drawing.Point(0, 0);
-            this.ScriptForSubfield.Size = new System.Drawing.Size(523, 81);
+            this.ScriptForSubfield.Size = new System.Drawing.Size(473, 43);
             this.ScriptForSubfield.StatusBarSettings.CoordsPanel.Width = 150;
             this.ScriptForSubfield.StatusBarSettings.EncodingPanel.Width = 100;
             this.ScriptForSubfield.StatusBarSettings.FileNamePanel.Width = 100;
@@ -601,14 +607,14 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ScriptForField.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.ScriptForField.Configurator = config26;
+            this.ScriptForField.Configurator = config10;
             this.ScriptForField.IndicatorMarginBackColor = System.Drawing.Color.Empty;
-            this.ScriptForField.Location = new System.Drawing.Point(123, 144);
+            this.ScriptForField.Location = new System.Drawing.Point(173, 137);
             this.ScriptForField.Name = "ScriptForField";
             this.ScriptForField.RenderRightToLeft = false;
             this.ScriptForField.SaveOnClose = false;
             this.ScriptForField.ScrollPosition = new System.Drawing.Point(0, 0);
-            this.ScriptForField.Size = new System.Drawing.Size(523, 101);
+            this.ScriptForField.Size = new System.Drawing.Size(473, 60);
             this.ScriptForField.StatusBarSettings.CoordsPanel.Width = 150;
             this.ScriptForField.StatusBarSettings.EncodingPanel.Width = 100;
             this.ScriptForField.StatusBarSettings.FileNamePanel.Width = 100;
@@ -623,61 +629,61 @@
             this.ScriptForField.UseXPStyleBorder = true;
             this.ScriptForField.VisualColumn = 1;
             // 
-            // ScriptForRecord
+            // PrologScriptForRecord
             // 
-            this.ScriptForRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.PrologScriptForRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ScriptForRecord.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.ScriptForRecord.Configurator = config27;
-            this.ScriptForRecord.IndicatorMarginBackColor = System.Drawing.Color.Empty;
-            this.ScriptForRecord.Location = new System.Drawing.Point(123, 60);
-            this.ScriptForRecord.Name = "ScriptForRecord";
-            this.ScriptForRecord.RenderRightToLeft = false;
-            this.ScriptForRecord.SaveOnClose = false;
-            this.ScriptForRecord.ScrollPosition = new System.Drawing.Point(0, 0);
-            this.ScriptForRecord.Size = new System.Drawing.Size(523, 101);
-            this.ScriptForRecord.StatusBarSettings.CoordsPanel.Width = 150;
-            this.ScriptForRecord.StatusBarSettings.EncodingPanel.Width = 100;
-            this.ScriptForRecord.StatusBarSettings.FileNamePanel.Width = 100;
-            this.ScriptForRecord.StatusBarSettings.InsertPanel.Width = 33;
-            this.ScriptForRecord.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
-            this.ScriptForRecord.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
-            this.ScriptForRecord.StatusBarSettings.StatusPanel.Width = 70;
-            this.ScriptForRecord.StatusBarSettings.TextPanel.Width = 214;
-            this.ScriptForRecord.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
-            this.ScriptForRecord.TabIndex = 2;
-            this.ScriptForRecord.Text = "";
-            this.ScriptForRecord.UseXPStyleBorder = true;
-            this.ScriptForRecord.VisualColumn = 1;
+            this.PrologScriptForRecord.CodeSnipptSize = new System.Drawing.Size(100, 100);
+            this.PrologScriptForRecord.Configurator = config11;
+            this.PrologScriptForRecord.IndicatorMarginBackColor = System.Drawing.Color.Empty;
+            this.PrologScriptForRecord.Location = new System.Drawing.Point(173, 60);
+            this.PrologScriptForRecord.Name = "PrologScriptForRecord";
+            this.PrologScriptForRecord.RenderRightToLeft = false;
+            this.PrologScriptForRecord.SaveOnClose = false;
+            this.PrologScriptForRecord.ScrollPosition = new System.Drawing.Point(0, 0);
+            this.PrologScriptForRecord.Size = new System.Drawing.Size(473, 81);
+            this.PrologScriptForRecord.StatusBarSettings.CoordsPanel.Width = 150;
+            this.PrologScriptForRecord.StatusBarSettings.EncodingPanel.Width = 100;
+            this.PrologScriptForRecord.StatusBarSettings.FileNamePanel.Width = 100;
+            this.PrologScriptForRecord.StatusBarSettings.InsertPanel.Width = 33;
+            this.PrologScriptForRecord.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
+            this.PrologScriptForRecord.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
+            this.PrologScriptForRecord.StatusBarSettings.StatusPanel.Width = 70;
+            this.PrologScriptForRecord.StatusBarSettings.TextPanel.Width = 214;
+            this.PrologScriptForRecord.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
+            this.PrologScriptForRecord.TabIndex = 2;
+            this.PrologScriptForRecord.Text = "";
+            this.PrologScriptForRecord.UseXPStyleBorder = true;
+            this.PrologScriptForRecord.VisualColumn = 1;
             // 
-            // ScriptForProlog
+            // PrologScript
             // 
-            this.ScriptForProlog.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            this.PrologScript.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.ScriptForProlog.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.ScriptForProlog.Configurator = config28;
-            this.ScriptForProlog.IndicatorMarginBackColor = System.Drawing.Color.Empty;
-            this.ScriptForProlog.Location = new System.Drawing.Point(123, 3);
-            this.ScriptForProlog.Name = "ScriptForProlog";
-            this.ScriptForProlog.RenderRightToLeft = false;
-            this.ScriptForProlog.SaveOnClose = false;
-            this.ScriptForProlog.ScrollPosition = new System.Drawing.Point(0, 0);
-            this.ScriptForProlog.Size = new System.Drawing.Size(523, 74);
-            this.ScriptForProlog.StatusBarSettings.CoordsPanel.Width = 150;
-            this.ScriptForProlog.StatusBarSettings.EncodingPanel.Width = 100;
-            this.ScriptForProlog.StatusBarSettings.FileNamePanel.Width = 100;
-            this.ScriptForProlog.StatusBarSettings.InsertPanel.Width = 33;
-            this.ScriptForProlog.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
-            this.ScriptForProlog.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
-            this.ScriptForProlog.StatusBarSettings.StatusPanel.Width = 70;
-            this.ScriptForProlog.StatusBarSettings.TextPanel.Width = 214;
-            this.ScriptForProlog.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
-            this.ScriptForProlog.TabIndex = 1;
-            this.ScriptForProlog.Text = "";
-            this.ScriptForProlog.UseXPStyleBorder = true;
-            this.ScriptForProlog.VisualColumn = 1;
+            this.PrologScript.CodeSnipptSize = new System.Drawing.Size(100, 100);
+            this.PrologScript.Configurator = config12;
+            this.PrologScript.IndicatorMarginBackColor = System.Drawing.Color.Empty;
+            this.PrologScript.Location = new System.Drawing.Point(173, 3);
+            this.PrologScript.Name = "PrologScript";
+            this.PrologScript.RenderRightToLeft = false;
+            this.PrologScript.SaveOnClose = false;
+            this.PrologScript.ScrollPosition = new System.Drawing.Point(0, 0);
+            this.PrologScript.Size = new System.Drawing.Size(473, 74);
+            this.PrologScript.StatusBarSettings.CoordsPanel.Width = 150;
+            this.PrologScript.StatusBarSettings.EncodingPanel.Width = 100;
+            this.PrologScript.StatusBarSettings.FileNamePanel.Width = 100;
+            this.PrologScript.StatusBarSettings.InsertPanel.Width = 33;
+            this.PrologScript.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
+            this.PrologScript.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
+            this.PrologScript.StatusBarSettings.StatusPanel.Width = 70;
+            this.PrologScript.StatusBarSettings.TextPanel.Width = 214;
+            this.PrologScript.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
+            this.PrologScript.TabIndex = 1;
+            this.PrologScript.Text = "";
+            this.PrologScript.UseXPStyleBorder = true;
+            this.PrologScript.VisualColumn = 1;
             // 
             // tabPage4
             // 
@@ -696,6 +702,25 @@
             this.tabPage4.TabIndex = 3;
             this.tabPage4.Text = "Генератор шаблонов";
             // 
+            // cmbTemplateType
+            // 
+            this.cmbTemplateType.FormattingEnabled = true;
+            this.cmbTemplateType.Items.AddRange(new object[] {
+            "T4 (the Text Template Transformation Toolkit)",
+            "Razor template engine"});
+            this.cmbTemplateType.Location = new System.Drawing.Point(128, 21);
+            this.cmbTemplateType.Name = "cmbTemplateType";
+            this.cmbTemplateType.Size = new System.Drawing.Size(518, 21);
+            this.cmbTemplateType.TabIndex = 28;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Location = new System.Drawing.Point(3, 21);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(114, 20);
+            this.textBox9.TabIndex = 27;
+            this.textBox9.Text = "Тип шаблона";
+            // 
             // textBox8
             // 
             this.textBox8.Location = new System.Drawing.Point(3, 187);
@@ -710,7 +735,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.WorkingTemplate.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.WorkingTemplate.Configurator = config18;
+            this.WorkingTemplate.Configurator = config13;
             this.WorkingTemplate.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.WorkingTemplate.Location = new System.Drawing.Point(123, 144);
             this.WorkingTemplate.Name = "WorkingTemplate";
@@ -754,7 +779,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.EpilogTemplate.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.EpilogTemplate.Configurator = config19;
+            this.EpilogTemplate.Configurator = config14;
             this.EpilogTemplate.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.EpilogTemplate.Location = new System.Drawing.Point(123, 312);
             this.EpilogTemplate.Name = "EpilogTemplate";
@@ -782,7 +807,7 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.PrologTemplate.CodeSnipptSize = new System.Drawing.Size(100, 100);
-            this.PrologTemplate.Configurator = config20;
+            this.PrologTemplate.Configurator = config15;
             this.PrologTemplate.IndicatorMarginBackColor = System.Drawing.Color.Empty;
             this.PrologTemplate.Location = new System.Drawing.Point(128, 76);
             this.PrologTemplate.Name = "PrologTemplate";
@@ -804,24 +829,41 @@
             this.PrologTemplate.UseXPStyleBorder = true;
             this.PrologTemplate.VisualColumn = 1;
             // 
-            // textBox9
+            // textBox10
             // 
-            this.textBox9.Location = new System.Drawing.Point(3, 21);
-            this.textBox9.Name = "textBox9";
-            this.textBox9.Size = new System.Drawing.Size(114, 20);
-            this.textBox9.TabIndex = 27;
-            this.textBox9.Text = "Тип шаблона";
+            this.textBox10.Location = new System.Drawing.Point(3, 295);
+            this.textBox10.Name = "textBox10";
+            this.textBox10.Size = new System.Drawing.Size(171, 20);
+            this.textBox10.TabIndex = 12;
+            this.textBox10.Text = "Код завершения для записей";
             // 
-            // cmbTemplateType
+            // EpilogScriptForRecord
             // 
-            this.cmbTemplateType.FormattingEnabled = true;
-            this.cmbTemplateType.Items.AddRange(new object[] {
-            "T4 (the Text Template Transformation Toolkit)",
-            "Razor template engine"});
-            this.cmbTemplateType.Location = new System.Drawing.Point(128, 21);
-            this.cmbTemplateType.Name = "cmbTemplateType";
-            this.cmbTemplateType.Size = new System.Drawing.Size(518, 21);
-            this.cmbTemplateType.TabIndex = 28;
+            this.EpilogScriptForRecord.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.EpilogScriptForRecord.CodeSnipptSize = new System.Drawing.Size(100, 100);
+            this.EpilogScriptForRecord.Configurator = config7;
+            this.EpilogScriptForRecord.IndicatorMarginBackColor = System.Drawing.Color.Empty;
+            this.EpilogScriptForRecord.Location = new System.Drawing.Point(173, 252);
+            this.EpilogScriptForRecord.Name = "EpilogScriptForRecord";
+            this.EpilogScriptForRecord.RenderRightToLeft = false;
+            this.EpilogScriptForRecord.SaveOnClose = false;
+            this.EpilogScriptForRecord.ScrollPosition = new System.Drawing.Point(0, 0);
+            this.EpilogScriptForRecord.Size = new System.Drawing.Size(473, 64);
+            this.EpilogScriptForRecord.StatusBarSettings.CoordsPanel.Width = 150;
+            this.EpilogScriptForRecord.StatusBarSettings.EncodingPanel.Width = 100;
+            this.EpilogScriptForRecord.StatusBarSettings.FileNamePanel.Width = 100;
+            this.EpilogScriptForRecord.StatusBarSettings.InsertPanel.Width = 33;
+            this.EpilogScriptForRecord.StatusBarSettings.Offcie2007ColorScheme = Syncfusion.Windows.Forms.Office2007Theme.Blue;
+            this.EpilogScriptForRecord.StatusBarSettings.Offcie2010ColorScheme = Syncfusion.Windows.Forms.Office2010Theme.Blue;
+            this.EpilogScriptForRecord.StatusBarSettings.StatusPanel.Width = 70;
+            this.EpilogScriptForRecord.StatusBarSettings.TextPanel.Width = 214;
+            this.EpilogScriptForRecord.StatusBarSettings.VisualStyle = Syncfusion.Windows.Forms.Tools.Controls.StatusBar.VisualStyle.Default;
+            this.EpilogScriptForRecord.TabIndex = 11;
+            this.EpilogScriptForRecord.Text = "";
+            this.EpilogScriptForRecord.UseXPStyleBorder = true;
+            this.EpilogScriptForRecord.VisualColumn = 1;
             // 
             // FindReplaceScriptEditor
             // 
@@ -851,16 +893,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.ReplaceTextStr)).EndInit();
             this.tabPage3.ResumeLayout(false);
             this.tabPage3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptForEpilog)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EpilogScript)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ScriptForSubfield)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ScriptForField)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptForRecord)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.ScriptForProlog)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PrologScriptForRecord)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PrologScript)).EndInit();
             this.tabPage4.ResumeLayout(false);
             this.tabPage4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.WorkingTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.EpilogTemplate)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PrologTemplate)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.EpilogScriptForRecord)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -894,13 +937,13 @@
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
-        private Syncfusion.Windows.Forms.Edit.EditControl ScriptForEpilog;
+        private Syncfusion.Windows.Forms.Edit.EditControl EpilogScript;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox1;
         private Syncfusion.Windows.Forms.Edit.EditControl ScriptForSubfield;
         private Syncfusion.Windows.Forms.Edit.EditControl ScriptForField;
-        private Syncfusion.Windows.Forms.Edit.EditControl ScriptForRecord;
-        private Syncfusion.Windows.Forms.Edit.EditControl ScriptForProlog;
+        private Syncfusion.Windows.Forms.Edit.EditControl PrologScriptForRecord;
+        private Syncfusion.Windows.Forms.Edit.EditControl PrologScript;
         private System.Windows.Forms.TabPage tabPage4;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.TextBox textBox8;
@@ -910,5 +953,7 @@
         public Syncfusion.Windows.Forms.Edit.EditControl PrologTemplate;
         private System.Windows.Forms.TextBox textBox9;
         public System.Windows.Forms.ComboBox cmbTemplateType;
+        private System.Windows.Forms.TextBox textBox10;
+        private Syncfusion.Windows.Forms.Edit.EditControl EpilogScriptForRecord;
     }
 }
