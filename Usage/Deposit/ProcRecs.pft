@@ -1,0 +1,3 @@
+if &unifor('SA')='0' then 'DBN:', &unifor('+D'), '<br> ', &unifor('S1') fi,  
+'MFN:', MFN, 
+&unifor('!'), 
